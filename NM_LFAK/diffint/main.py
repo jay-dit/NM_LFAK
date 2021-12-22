@@ -1,11 +1,4 @@
-from numpy import *
-import pandas as pd
-import sympy as sm
-import matplotlib.pyplot as plt
-
 def diff_by_Jay(f, left, right, num_of_dots, dx):
-    
-    
     """ Функция выводит графики производных через формулу и стандартные методы
     
     f - Функция
@@ -279,3 +272,8 @@ def antiderivative_by_Jay(f, left, right):
         x1.append(left_h)
     
     plt.scatter(x1,y1,marker ='.',linewidths=0.5)
+
+from numpy import *
+import pandas as pd
+import sympy as sm
+import matplotlib.pyplot as plt

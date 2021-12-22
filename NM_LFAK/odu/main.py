@@ -123,5 +123,3 @@ def analysis(df):
         plt.scatter(df[cols[0]], df[element], label = f'{element}({cols[0]})')
         plt.legend()
         plt.show()
-        newton(list(df[cols[0]]),list(df[element]))
-        ax2(list(df[cols[0]]),list(df[element]))

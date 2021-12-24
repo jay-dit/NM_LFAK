@@ -6,6 +6,7 @@ NM_LFAK.egg-info/PKG-INFO
 NM_LFAK.egg-info/SOURCES.txt
 NM_LFAK.egg-info/dependency_links.txt
 NM_LFAK.egg-info/not-zip-safe
+NM_LFAK.egg-info/requires.txt
 NM_LFAK.egg-info/top_level.txt
 NM_LFAK/annealing/__init__.py
 NM_LFAK/annealing/main.py
